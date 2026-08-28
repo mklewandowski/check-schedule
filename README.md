@@ -4,15 +4,11 @@ An automated Python script that scrapes the weekly class schedule for **The Yoga
 
 Automated via **GitHub Actions** to run every Monday morning.
 
----
-
 ## How It Works
 
 1. **Headless Scraping:** Launches a headless Chromium browser using `playwright` to render dynamic client-side JavaScript content on Momence.
 2. **Teacher Check:** Evaluates the DOM to see if `TARGET_TEACHER` is listed for the upcoming week.
 3. **Email Notification:** Connects to Gmail's SMTP server (`smtp.gmail.com:465`) and sends an alert email if a match is found.
-
----
 
 ## Prerequisites & Setup
 
