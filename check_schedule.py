@@ -5,7 +5,7 @@ from playwright.sync_api import sync_playwright
 from dotenv import load_dotenv
 load_dotenv()
 
-TARGET_TEACHER = "Sarah Goldsmith"
+TARGET_TEACHER = "Kari Mueller"
 SCHEDULE_URL = "https://momence.com/u/the-yoga-space-cm3KCs"
 
 SENDER_EMAIL = "mattkainlewandowski@gmail.com"
